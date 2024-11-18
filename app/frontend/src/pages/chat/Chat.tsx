@@ -378,7 +378,7 @@ const Chat = () => {
                             <ExampleList onExampleClicked={onExampleClicked} useGPT4V={useGPT4V} />
                             <div className={styles.linkContainer}>
                                 <p>
-                                    For more information, visit our{" "}
+                                    This search is based off of {" "}
                                     <a
                                         href="https://www.otpp.com/en-ca/members/planning-tools-and-resources/glossary/"
                                         target="_blank"
@@ -386,8 +386,25 @@ const Chat = () => {
                                     >
                                         glossary
                                     </a>
+                                    , {" "}
+                                    <a
+                                        href="https://www.otpp.com/en-ca/members/preparing-to-retire/retirement-checklist-pension-application/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        retirement checklist
+                                    </a>
+                                    , and {" "}
+                                    <a
+                                        href="https://www.otpp.com/en-ca/members/planning-tools-and-resources/faqs/working-member/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        FAQs for working members
+                                    </a>
                                     .
                                 </p>
+                            </div>
                             </div>
                         </div>
                     ) : (
