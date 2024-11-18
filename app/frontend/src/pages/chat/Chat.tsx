@@ -384,7 +384,7 @@ const Chat = () => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        glossary
+                                        "Glossary"
                                     </a>
                                     ,{" "}
                                     <a
@@ -392,7 +392,7 @@ const Chat = () => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        retirement checklist
+                                        "Retirement checklist"
                                     </a>
                                     , and{" "}
                                     <a
@@ -400,7 +400,7 @@ const Chat = () => {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        FAQs for working members
+                                        "FAQs for working members"
                                     </a>
                                     .
                                 </p>
