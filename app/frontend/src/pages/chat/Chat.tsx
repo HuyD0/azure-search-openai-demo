@@ -378,7 +378,7 @@ const Chat = () => {
                             <ExampleList onExampleClicked={onExampleClicked} useGPT4V={useGPT4V} />
                             <div className={styles.linkContainer}>
                                 <p>
-                                    This search is based off of{" "}
+                                    This search is based off of the HTML from{" "}
                                     <a
                                         href="https://www.otpp.com/en-ca/members/planning-tools-and-resources/glossary/"
                                         target="_blank"
