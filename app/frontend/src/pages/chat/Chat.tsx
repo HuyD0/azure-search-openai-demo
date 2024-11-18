@@ -376,6 +376,19 @@ const Chat = () => {
                             {showLanguagePicker && <LanguagePicker onLanguageChange={newLang => i18n.changeLanguage(newLang)} />}
 
                             <ExampleList onExampleClicked={onExampleClicked} useGPT4V={useGPT4V} />
+                            <div className={styles.linkContainer}>
+                                <p>
+                                    For more information, visit our{" "}
+                                    <a
+                                        href="https://www.otpp.com/en-ca/members/planning-tools-and-resources/glossary/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        glossary
+                                    </a>
+                                    .
+                                </p>
+                            </div>
                         </div>
                     ) : (
                         <div className={styles.chatMessageStream}>
