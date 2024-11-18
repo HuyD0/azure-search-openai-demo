@@ -34,8 +34,8 @@
     },
     "developerSettings": "Developer settings",
 
-    "chatEmptyStateTitle": "Chat with www.otpp.com",
-    "chatEmptyStateSubtitle": "Ask about information found on pages or try one of these examples",
+    "chatEmptyStateTitle": "Chat with Otpp.com",
+    "chatEmptyStateSubtitle": "Ask about info found on the selected pages or try one of these examples",
     "defaultExamples": {
         "1": "Can I access my account without two-step verification?",
         "2": "When should I apply for my penison?",
